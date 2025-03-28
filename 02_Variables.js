@@ -1,4 +1,4 @@
-const a = 5 // can't be changed in anyway scope
+const l = 5 // can't be changed in anyway scope
 let b = 4 //declaration of the variable
 var c = 3
 function add(a,b,c){
