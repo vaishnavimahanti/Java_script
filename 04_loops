@@ -1,0 +1,31 @@
+let n;
+
+/* for loop
+for (n=0; n<=10; n++){
+    console.log(n);
+}
+
+const dict={
+    Greetings :"Merhaba/Selam",
+    GoodMorning : "Gunaydin",
+    GoodEvening: "iyi aksamlar"
+}
+
+
+for (n in dict){
+    console.log(n);
+    for (let i  of dict[n]){
+        console.log(i);
+    }
+}
+
+while(n<10){
+    console.log(n);
+    n++;
+}
+*/
+
+n=5;
+do{
+    console.log('Hi');
+} while(n!=5)
