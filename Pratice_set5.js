@@ -51,10 +51,54 @@ console.log(arr_1)
 
 const arr =[70, 63, 82, 30, 7, 53, 40, 19, 84, 90];   //divisible by 10(alternative way)
 console.log(arr.filter(num => num%10 === 0));
-*/
 
 const arr=[1,2,3,4,5]
 for(let i in arr){
     arr[i]=arr[i]*arr[i];
 }
-console.log(arr)
+
+console.log(arr);
+
+let compare = (a,b) => {     //ascending order
+return a-b;
+}
+
+let compare = (a,b) => {      //descending order
+return b-a;
+}
+
+let values=[120, 154, 323, 456, 789, 3,8]
+console.log(values.sort(compare));
+console.log(values.sort());
+*/
+
+let arr =[70, 63, 82, 30, 7, 53, 40, 19, 84, 90];  
+
+/*
+//divisible by 10(alternative method)
+
+let a1 = arr.filter((value) => {        
+    return value % 10 === 0;
+})
+
+console.log(a1);
+
+//square of the elements in the array
+
+arr.forEach((element) => {             
+arr[arr.indexOf(element)]= element * element;
+})
+
+console.log(arr);
+
+*/
+
+let fact = (n) =>{
+    let res = 1;
+    for(let i =2; i<=n; i++){
+        res = res * i;
+    }
+    return res;
+}
+
+console.log(arr.reduce(fact));
